@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CompanyName.ProjectName</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyName.ProjectName.Core.Application\CompanyName.ProjectName.Core.Application.csproj" />
+    <ProjectReference Include="..\CompanyName.ProjectName.Core.Database\CompanyName.ProjectName.Core.Database.csproj" />
+    <ProjectReference Include="..\CompanyName.ProjectName.Core.Domain\CompanyName.ProjectName.Core.Domain.csproj" />
+    <ProjectReference Include="..\CompanyName.ProjectName.Core.Infrastructure\CompanyName.ProjectName.Core.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
